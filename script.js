@@ -1,4 +1,4 @@
-(function () {
+
   const form = document.getElementById("login-form");
   const usernameInput = document.getElementById("username");
   const passwordInput = document.getElementById("password");
@@ -46,4 +46,3 @@
       alert(`Logged in as ${savedUsername}`);
     }
   });
-})();
